@@ -1,0 +1,34 @@
+.root {
+  padding: var(--ptui-spacing-20x) var(--ptui-spacing-none);
+  background-color: var(--color-bg-dark);
+}
+
+.title {
+  font: var(--font-weight-semibold) 48px/56px var(--font-family-title);
+  color: var(--color-text-on-action);
+  align-self: center;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: var(--ptui-spacing-6x);
+}
+
+.card {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--ptui-spacing-6x);
+  border-radius: var(--ptui-border-radius-lg);
+  background-color: var(--color-bg-light);
+  padding: var(--ptui-spacing-6x);
+  font: var(--font-body-sm);
+  color: var(--color-text-secondary);
+}
+
+.card svg {
+  width: 48px;
+  height: 48px;
+}

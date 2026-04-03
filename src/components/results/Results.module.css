@@ -1,0 +1,33 @@
+.root {
+  padding: var(--ptui-spacing-20x) var(--ptui-spacing-none);
+  background-color: var(--color-bg-light);
+}
+
+.title {
+  font: var(--font-weight-semibold) 48px/56px var(--font-family-title);
+  color: var(--color-text-primary);
+  align-self: center;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--ptui-spacing-6x);
+}
+
+.card {
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  gap: var(--ptui-spacing-1x);
+  border-radius: var(--ptui-border-radius-lg);
+  background-color: var(--color-bg-action);
+  padding: var(--ptui-spacing-6x);
+  color: var(--color-text-on-action);
+  font: var(--font-body-md);
+}
+
+.digit {
+  font: var(--font-weight-semibold) 72px/72px var(--font-family-title);
+}

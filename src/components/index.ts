@@ -1,0 +1,9 @@
+export { Header } from "./header/Header";
+export { AboutProduct } from "./about-product/AboutProduct";
+export { Functions } from "./functions/Functions";
+export { OurTeam } from "./our-team/OurTeam";
+export { Tools } from "./tools/Tools";
+export { Results } from "./results/Resusts";
+export { Usage } from "./usage/Usage";
+export { Workflow } from "./workflow/Workflow";
+export { Future } from "./future/Future";

@@ -1,0 +1,10 @@
+.root {
+  background-color: var(--color-bg-dark);
+  padding: var(--ptui-spacing-4x) var(--ptui-spacing-none);
+}
+
+.wrapper {
+  margin-inline: auto;
+  padding-inline: var(--ptui-spacing-6x);
+  max-width: 1536px; /* 96rem */
+}

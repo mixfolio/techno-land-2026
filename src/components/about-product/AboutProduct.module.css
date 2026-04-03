@@ -1,0 +1,21 @@
+.root {
+  padding: var(--ptui-spacing-20x) var(--ptui-spacing-none);
+  background-color: var(--color-bg-light);
+}
+
+.title {
+  font: var(--font-weight-semibold) 48px/56px var(--font-family-title);
+  color: var(--color-text-primary);
+  align-self: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--ptui-spacing-8x);
+}
+
+.subtitle {
+  font: var(--font-weight-medium) 36px/40px var(--font-family-title);
+  color: var(--color-text-tertiary);
+}

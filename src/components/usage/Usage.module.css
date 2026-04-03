@@ -1,0 +1,30 @@
+.root {
+  padding: var(--ptui-spacing-20x) var(--ptui-spacing-none);
+  background-color: var(--color-bg-dark);
+}
+
+.title {
+  font: var(--font-weight-semibold) 48px/56px var(--font-family-title);
+  color: var(--color-text-on-action);
+  align-self: center;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--ptui-spacing-6x);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--ptui-spacing-6x);
+  text-align: center;
+  flex: 1 0 0;
+}
+
+.text {
+  font: var(--font-body-lg);
+  color: var(--color-text-on-action);
+}

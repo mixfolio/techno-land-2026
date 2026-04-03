@@ -1,0 +1,30 @@
+.root {
+  padding: var(--ptui-spacing-20x) var(--ptui-spacing-none);
+  background-color: var(--color-bg-light);
+}
+
+.title {
+  font: var(--font-weight-semibold) 48px/56px var(--font-family-title);
+  color: var(--color-text-primary);
+  align-self: center;
+}
+
+.grid {
+  display: grid;
+  width: 100%;
+  row-gap: var(--ptui-spacing-10x);
+  column-gap: var(--ptui-spacing-6x);
+  align-self: stretch;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--ptui-spacing-8x);
+}
+
+.subtitle {
+  font: var(--font-weight-medium) 36px/40px var(--font-family-title);
+  color: var(--color-text-tertiary);
+}
