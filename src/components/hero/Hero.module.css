@@ -1,0 +1,48 @@
+.root {
+  background-color: var(--color-bg-dark);
+  height: fit-content;
+  overflow: hidden;
+}
+
+.wrapper {
+  margin-inline: auto;
+  position: relative;
+  max-width: 1536px;
+}
+
+.video {
+  position: absolute;
+  object-fit: cover;
+  inset: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.2);
+  inset: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--ptui-spacing-4x);
+  padding: var(--ptui-spacing-20x);
+  position: relative;
+  z-index: 1;
+}
+
+.title {
+  color: var(--color-text-on-action);
+  font: var(--font-weight-semibold) 48px/64px var(--font-family-title);
+  text-transform: uppercase;
+}
+
+.subtitle {
+  font-family: var(--font-family-main);
+  font: var(--font-weight-regular) 28px/36px var(--font-family-main);
+  color: var(--color-text-on-action);
+  max-width: 800px;
+  margin-bottom: var(--ptui-spacing-4x);
+}

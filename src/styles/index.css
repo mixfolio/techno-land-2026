@@ -64,6 +64,7 @@
   --ptui-control-height-sm: 24px;
   --ptui-control-height-base: 32px;
   --ptui-control-height-lg: 40px;
+  --ptui-control-height-xl: 48px;
 
   --ptui-border-radius-md: var(--ptui-scale-2x);
   --ptui-border-radius-lg: var(--ptui-scale-4x);
@@ -91,6 +92,7 @@
   --color-bg-light: #ffffff;
   --color-bg-dark: #000000;
   --color-bg-action: var(--color-primary);
+  --color-bg-action-hover: #b1b1b1;
 }
 
 .container {

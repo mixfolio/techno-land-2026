@@ -3,6 +3,7 @@ import {
   Functions,
   Future,
   Header,
+  Hero,
   OurTeam,
   Results,
   Tools,
@@ -14,6 +15,7 @@ const App = () => {
   return (
     <div>
       <Header />
+      <Hero />
       <AboutProduct />
       <Workflow />
       <Functions />

@@ -1,0 +1,62 @@
+.rootButton {
+  display: inline-flex;
+  height: var(--ptui-control-height-xl);
+  padding: var(--ptui-spacing-none) var(--ptui-spacing-5x);
+  justify-content: center;
+  align-items: center;
+  gap: var(--ptui-spacing-2x);
+  border-radius: var(--ptui-border-radius-md);
+  font: var(--font-weight-medium) 18px/20px var(--font-family-title);
+  border: var(--ptui-border-width-sm) solid var(--ptui-color-border-transparent);
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.rootButton:disabled {
+  cursor: not-allowed;
+}
+
+.default {
+  color: var(--ptui-color-text-primary);
+  border-color: var(--ptui-color-border-primary);
+  background-color: var(--color-bg-light);
+}
+
+.default:hover {
+  color: var(--ptui-color-text-action-hover);
+  border-color: var(--ptui-color-border-action-hover);
+}
+
+.default:active {
+  color: var(--ptui-color-text-action-active);
+  border-color: var(--ptui-color-border-action-active);
+}
+
+.default:disabled {
+  color: var(--ptui-color-text-disabled);
+  border-color: var(--ptui-color-border-disabled);
+  background-color: var(--ptui-color-surface-disabled);
+}
+
+.primary {
+  color: var(--color-text-on-action);
+  background-color: var(--color-bg-action);
+}
+
+.primary:hover {
+  border-color: var(--ptui-color-border-action-hover);
+  background-color: var(--color-bg-action-hover);
+}
+
+.primary:active {
+  border-color: var(--ptui-color-border-action-active);
+  background-color: var(--ptui-color-surface-action-active);
+}
+
+.primary:disabled {
+  color: var(--ptui-color-text-disabled);
+  border-color: var(--ptui-color-border-disabled);
+  background: var(--ptui-color-surface-disabled);
+}
