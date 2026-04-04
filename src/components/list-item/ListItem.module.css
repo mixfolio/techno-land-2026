@@ -1,4 +1,4 @@
-.root {
+.ListItem {
   display: flex;
   align-items: center;
   gap: var(--ptui-spacing-2x);
@@ -7,4 +7,8 @@
 .text {
   font: var(--font-body-md);
   color: var(--color-text-secondary);
+}
+
+.ListItem svg {
+  flex: 0 0 auto;
 }

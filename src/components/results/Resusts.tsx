@@ -2,9 +2,9 @@ import styles from "./Results.module.css";
 
 export const Results = () => {
   return (
-    <section className={styles.root}>
+    <section className="section">
       <div className="container">
-        <h2 className={styles.title}>Результаты внедрения</h2>
+        <h2 className="h2">Результаты внедрения</h2>
         <div className={styles.content}>
           <div className={styles.card}>
             <h4 className={styles.digit}>10%</h4>

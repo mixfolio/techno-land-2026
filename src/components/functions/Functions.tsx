@@ -4,13 +4,13 @@ import { ListItem } from "../list-item/ListItem";
 
 export const Functions = () => {
   return (
-    <section className={styles.root}>
+    <section className="section">
       <div className="container">
-        <h2 className={styles.title}>{functions.title}</h2>
+        <h2 className="h2">{functions.title}</h2>
         <div className={styles.grid}>
           {functions.paragraphs.map((item) => (
             <div key={item.id} className={styles.content}>
-              <h3 className={styles.subtitle}>{item.subtitle}</h3>
+              <h3 className="h3">{item.subtitle}</h3>
               {item.list.map((text) => (
                 <ListItem key={text.id} text={text.text} />
               ))}

@@ -1,14 +1,3 @@
-.root {
-  padding: var(--ptui-spacing-20x) var(--ptui-spacing-none);
-  background-color: #d5d5d5;
-}
-
-.title {
-  font: var(--font-weight-semibold) 48px/56px var(--font-family-title);
-  color: var(--color-text-primary);
-  align-self: center;
-}
-
 .content {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -39,6 +28,8 @@
   line-height: 28px;
 }
 
-/* .root img {
-  object-fit: cover;
-} */
+@media (max-width: 768px) {
+  .content {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}

@@ -1,14 +1,3 @@
-.root {
-  padding: var(--ptui-spacing-20x) var(--ptui-spacing-none);
-  background-color: var(--color-bg-light);
-}
-
-.title {
-  font: var(--font-weight-semibold) 48px/56px var(--font-family-title);
-  color: var(--color-text-on-primary);
-  align-self: center;
-}
-
 .content {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -27,4 +16,10 @@
 .text {
   font: var(--font-body-lg);
   color: var(--color-text-secondary);
+}
+
+@media (max-width: 768px) {
+  .content {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
 }
