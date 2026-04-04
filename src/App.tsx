@@ -1,5 +1,7 @@
 import {
   AboutProduct,
+  Cases,
+  Footer,
   Functions,
   Future,
   Header,
@@ -10,6 +12,7 @@ import {
   Usage,
   Workflow,
 } from "./components";
+import { Contacts } from "./components/contacts/Contacts";
 
 const App = () => {
   return (
@@ -20,10 +23,13 @@ const App = () => {
       <Workflow />
       <Functions />
       <Usage />
+      <Cases />
       <Results />
       <Tools />
       <Future />
       <OurTeam />
+      <Contacts />
+      <Footer />
     </div>
   );
 };

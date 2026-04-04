@@ -8,3 +8,5 @@ export { Results } from "./results/Resusts";
 export { Usage } from "./usage/Usage";
 export { Workflow } from "./workflow/Workflow";
 export { Future } from "./future/Future";
+export { Footer } from "./footer/Footer";
+export { Cases } from "./cases/Cases";

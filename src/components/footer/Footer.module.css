@@ -1,0 +1,28 @@
+.root {
+  background-color: var(--color-bg-dark);
+  padding: var(--ptui-spacing-6x) var(--ptui-spacing-none);
+  font-size: 14px;
+  color: #9a9a9a;
+}
+.wrapper {
+  margin-inline: auto;
+  padding-inline: var(--ptui-spacing-6x);
+  max-width: 1536px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+}
+
+.root hr {
+  border-top: 1px solid #9a9a9a;
+  margin-block: var(--ptui-spacing-4x);
+}
+.root svg {
+  fill: #ffffff;
+}
+
+/* .text {
+  font: var(--font-weight-medium) 14px/14px var(--font-family-main);
+} */

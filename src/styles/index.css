@@ -95,6 +95,10 @@
   --color-bg-action-hover: #b1b1b1;
 }
 
+body {
+  font-family: var(--font-family-main);
+}
+
 .container {
   display: flex;
   flex-direction: column;
