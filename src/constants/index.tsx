@@ -10,6 +10,14 @@ import Bot from "../components/future/icons/bot.svg?react";
 import Automatic from "../components/future/icons/automatic.svg?react";
 import Twin from "../components/future/icons/twin.svg?react";
 
+import Boiler from "../components/usage/icons/boiler.svg?react";
+import Pump from "../components/usage/icons/pump.svg?react";
+import Clear from "../components/usage/icons/clear.svg?react";
+import Transformer from "../components/usage/icons/transformer.svg?react";
+import Accum from "../components/usage/icons/accum.svg?react";
+import DataCenter from "../components/usage/icons/data-center.svg?react";
+import Cooler from "../components/usage/icons/cooler.svg?react";
+
 const aboutProduct = {
   title: "О продукте",
   subtitle:
@@ -107,14 +115,15 @@ const usage = {
   list: [
     {
       id: "1",
+      icon: <Boiler />,
       text: "Водогрейные котельные",
     },
-    { id: "2", text: "Водозаборные узлы" },
-    { id: "3", text: "Очистные сооружения" },
-    { id: "4", text: "Электроподстанции" },
-    { id: "5", text: "Энергоцентры" },
-    { id: "6", text: "ЦОДы" },
-    { id: "7", text: "Вентиляция и кондиционирование" },
+    { id: "2", icon: <Pump />, text: "Водозаборные узлы" },
+    { id: "3", icon: <Clear />, text: "Очистные сооружения" },
+    { id: "4", icon: <Transformer />, text: "Электроподстанции" },
+    { id: "5", icon: <Accum />, text: "Энергоцентры" },
+    { id: "6", icon: <DataCenter />, text: "ЦОДы" },
+    { id: "7", icon: <Cooler />, text: "Вентиляция и кондиционирование" },
   ],
 };
 
