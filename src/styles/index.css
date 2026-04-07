@@ -132,6 +132,15 @@ body {
   color: var(--color-text-on-action);
 }
 
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 @media (max-width: 768px) {
   .section {
     padding: var(--ptui-spacing-12x) var(--ptui-spacing-none);

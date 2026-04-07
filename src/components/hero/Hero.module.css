@@ -11,17 +11,9 @@
   padding-inline: var(--ptui-spacing-6x);
 }
 
-.video {
-  position: absolute;
-  object-fit: cover;
-  inset: 0;
-  max-width: 100%;
-  /* border: 1px solid gold; */
-}
-
 .overlay {
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.5);
   inset: 0;
 }
 

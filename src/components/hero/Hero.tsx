@@ -6,7 +6,7 @@ export const Hero = () => {
     <section className={styles.root}>
       <div className={styles.wrapper}>
         <video
-          className={styles.video}
+          className="video"
           src="./videos/hud.m4v"
           loop
           muted
