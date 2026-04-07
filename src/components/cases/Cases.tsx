@@ -31,25 +31,6 @@ export const Cases = () => {
               </div>
             </div>
           </div>
-
-          {/* <div className={styles.videoContainer}>
-            <video width={640} height={"auto"} controls poster={boilerCase}>
-              <source src="/boiler-test.mp4" type="video/mp4" />
-            </video>
-          </div> */}
-
-          {/* <div className={styles.case}>
-            <img src={boilerCase} alt="Кейс-1" />
-            <div className={styles.text}>
-              <p>Диспетчерская служба на базе котельных</p>
-            </div>
-          </div>
-          <div className={styles.case}>
-            <img src={electroCase} alt="Кейс-2" />
-            <div className={styles.text}>
-              <p>Система диспетчеризации электрических сетей</p>
-            </div>
-          </div> */}
         </div>
       </div>
     </section>

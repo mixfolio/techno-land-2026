@@ -131,12 +131,12 @@ const workflow = {
   title: "Как мы работаем",
   subtitle: "",
   list: [
-    { id: "1", icon: <Sensor />, text: "Датчики" },
-    { id: "2", icon: <Cloud />, text: "Облако / SCADA" },
-    { id: "3", icon: <Analitics />, text: "Аналитика" },
-    { id: "4", icon: <Alarm />, text: "Сигнал" },
-    { id: "5", icon: <Support />, text: "Диспетчер" },
-    { id: "6", icon: <Worker />, text: "Бригада" },
+    { id: "1", icon: <Sensor />, arrow: true, text: "Датчики" },
+    { id: "2", icon: <Cloud />, arrow: true, text: "Облако / SCADA" },
+    { id: "3", icon: <Analitics />, arrow: true, text: "Аналитика" },
+    { id: "4", icon: <Alarm />, arrow: true, text: "Сигнал" },
+    { id: "5", icon: <Support />, arrow: true, text: "Диспетчер" },
+    { id: "6", icon: <Worker />, arrow: false, text: "Бригада" },
   ],
 };
 
