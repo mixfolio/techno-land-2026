@@ -8,7 +8,7 @@ export const Usage = () => {
         <h2 className="h2 text-on-action">{usage.title}</h2>
         <div className={styles.content}>
           {usage.list.map((item) => (
-            <div className={styles.card}>
+            <div key={item.id} className={styles.card}>
               {item.icon}
               <p className={styles.text}>{item.text}</p>
             </div>

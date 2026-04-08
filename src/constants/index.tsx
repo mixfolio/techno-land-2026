@@ -139,7 +139,9 @@ const workflow = {
         title: "Сбор данных",
         desc: "Более 10 000 сигналов в секунду с каждого объекта",
       },
+      type: "card",
     },
+    { id: "1-1", type: "arrow" },
     {
       id: "2",
       icon: <Cloud />,
@@ -148,7 +150,9 @@ const workflow = {
         title: "Передача данных",
         desc: "Данные поступают в облачную SCADA-систему",
       },
+      type: "card",
     },
+    { id: "2-1", type: "arrow" },
     {
       id: "3",
       icon: <Analitics />,
@@ -157,7 +161,9 @@ const workflow = {
         title: "Анализ",
         desc: "Выявление отклонений и прогноз рисков",
       },
+      type: "card",
     },
+    { id: "3-1", type: "arrow" },
     {
       id: "4",
       icon: <Alarm />,
@@ -166,7 +172,9 @@ const workflow = {
         title: "Оповещение",
         desc: "Система сигнализирует диспетчеру",
       },
+      type: "card",
     },
+    { id: "4-1", type: "arrow" },
     {
       id: "5",
       icon: <Support />,
@@ -175,7 +183,9 @@ const workflow = {
         title: "Реагирование",
         desc: "Быстрое устранение аварий 24/7",
       },
+      type: "card",
     },
+    { id: "5-1", type: "arrow" },
     {
       id: "6",
       icon: <Worker />,
@@ -184,6 +194,7 @@ const workflow = {
         title: "Ремонт",
         desc: "Бригада получает задачи и устраняет проблему",
       },
+      type: "card",
     },
   ],
 };

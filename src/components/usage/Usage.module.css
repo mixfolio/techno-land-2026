@@ -1,7 +1,8 @@
 .content {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  display: flex;
+  flex-wrap: wrap;
   gap: var(--ptui-spacing-6x);
+  justify-content: center;
 }
 
 .card {
@@ -10,16 +11,10 @@
   align-items: center;
   gap: var(--ptui-spacing-6x);
   text-align: center;
-  flex: 1 0 0;
+  min-width: 320px;
 }
 
 .text {
   font: var(--font-body-lg);
   color: var(--color-text-on-action);
-}
-
-@media (max-width: 768px) {
-  .content {
-    grid-template-columns: repeat(1, minmax(0, 1fr));
-  }
 }
