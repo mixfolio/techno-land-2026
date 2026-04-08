@@ -1,4 +1,4 @@
-import { Button } from "../ui";
+import { Link } from "../ui";
 import styles from "./Hero.module.css";
 
 export const Hero = () => {
@@ -24,7 +24,9 @@ export const Hero = () => {
             возможности для роста бизнеса
           </p>
           <div>
-            <Button>Скачать презентацию</Button>
+            <Link href="./files/Презентация.pdf" download>
+              Скачать презентацию
+            </Link>
           </div>
         </div>
       </div>
