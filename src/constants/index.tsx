@@ -99,7 +99,7 @@ const tools = [
   { href: "prometheus", title: "Prometheus" },
   { href: "grafana", title: "Grafana" },
   { href: "github", title: "GitHub" },
-  { href: "jira", title: "Jira" },
+  { href: "ya-tracker", title: "Yandex Tracker" },
   { href: "minio", title: "MinIO" },
   { href: "consul", title: "Consul" },
   { href: "jaeger", title: "Jaeger" },
@@ -131,12 +131,60 @@ const workflow = {
   title: "Как мы работаем",
   subtitle: "",
   list: [
-    { id: "1", icon: <Sensor />, arrow: true, text: "Датчики" },
-    { id: "2", icon: <Cloud />, arrow: true, text: "Облако / SCADA" },
-    { id: "3", icon: <Analitics />, arrow: true, text: "Аналитика" },
-    { id: "4", icon: <Alarm />, arrow: true, text: "Сигнал" },
-    { id: "5", icon: <Support />, arrow: true, text: "Диспетчер" },
-    { id: "6", icon: <Worker />, arrow: false, text: "Бригада" },
+    {
+      id: "1",
+      icon: <Sensor />,
+      text: "Датчики",
+      info: {
+        title: "Сбор данных",
+        desc: "Более 10 000 сигналов в секунду с каждого объекта",
+      },
+    },
+    {
+      id: "2",
+      icon: <Cloud />,
+      text: "Облако / SCADA",
+      info: {
+        title: "Передача данных",
+        desc: "Данные поступают в облачную SCADA-систему",
+      },
+    },
+    {
+      id: "3",
+      icon: <Analitics />,
+      text: "Аналитика",
+      info: {
+        title: "Анализ",
+        desc: "Выявление отклонений и прогноз рисков",
+      },
+    },
+    {
+      id: "4",
+      icon: <Alarm />,
+      text: "Сигнал",
+      info: {
+        title: "Оповещение",
+        desc: "Система сигнализирует диспетчеру",
+      },
+    },
+    {
+      id: "5",
+      icon: <Support />,
+      text: "Диспетчер",
+      info: {
+        title: "Реагирование",
+        desc: "Быстрое устранение аварий 24/7",
+      },
+    },
+    {
+      id: "6",
+      icon: <Worker />,
+      text: "Бригада",
+      info: {
+        title: "Ремонт",
+        desc: "Бригада получает задачи и устраняет проблему",
+      },
+    },
   ],
 };
 
